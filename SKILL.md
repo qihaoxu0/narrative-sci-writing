@@ -31,7 +31,11 @@ description: "将研究思路、SCI草稿或实验材料组织成问题驱动、
 
 ## 让章节共同完成论证
 
-具体改写时，读取 [章节重构指南](references/section-guide.md) 的相应模块。按期刊和学科选择IMRaD、结果先行或其他合适结构，不把所有稿件改成一个模板。
+整篇撰写或重写时，首先读取并采用 [优先论文架构](references/preferred-paper-structure.md)：I. Introduction → II. Related Works → III. Method → IV. Experiment → V. Conclusion → References。引言末尾按3—4条组织有证据支撑、彼此有区别的创新／贡献点；方法按Motivation、Framework、Specific Modules、Algorithm、Loss Function展开；实验按Implementation Details、Ablation Study、Comparative Study、规模／复杂度对照展开。不要默认只重写引言。
+
+用户本次明确指定其他目录或期刊有必须遵守的格式时，按明确要求调整；否则不自行换成另一套架构。MRI稿件优先参考模板中的完整标题与层级，其他领域保留功能骨架，按真实任务替换主题与模块名，不为填目录虚构模块、算法或损失。标题、摘要和关键词按期刊要求置于正文之前。
+
+具体章节改写时，读取 [章节重构指南](references/section-guide.md) 的相应模块。局部编辑只处理请求的部分，不因为参考架构而擅自重写全文。
 
 - 标题让人识别任务、问题或关键思想，避免只拼接模型名称。
 - 摘要覆盖重要性、不足、关键动作和结果意义；四种功能不等于恰好四句话。

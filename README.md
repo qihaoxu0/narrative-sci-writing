@@ -7,7 +7,7 @@
 在Codex中调用：
 
 ```text
-请使用 $narrative-sci-writing，依据这份稿件和真实结果，提炼一句话主线，指出最重要的两个论证问题，并直接重写引言。
+请使用 $narrative-sci-writing，依据我的完整稿件和真实结果，先提炼论证主线，再按优先论文架构重写全文；引言组织3—4条真实贡献，保留负结果与必要限定。
 ```
 
 其他常用请求：
@@ -40,10 +40,13 @@ git clone https://github.com/qihaoxu0/narrative-sci-writing.git "$env:USERPROFIL
 
 - `SKILL.md`：触发条件、论证主线、问题分级、交付规则。
 - `references/section-guide.md`：按需读取的标题至结论写法。
+- `references/preferred-paper-structure.md`：优先使用的五章架构与MRI模块层级。
 - `references/evidence-and-style.md`：证据对应、参考写法提取与中英一致性。
 - `agents/openai.yaml`：Codex界面名称与默认调用提示。
 
 ## 优化原则
+
+全文默认优先采用Introduction、Related Works、Method、Experiment、Conclusion五章和References。方法先写动机与框架，再写具体模块、算法与损失；实验先实现细节和消融，再总体对比与模型规模对照。完整参考标题见优先架构文件。用户当前指定目录或期刊强制格式可覆盖默认架构；局部改写仍只处理指定部分。
 
 故事感不等于虚构研究过程；肯定语气不等于删除科学限定。摘要的四种功能不是四句话硬模板，图1也不必总是框架图。既不因相似工作轻率否定方向，也不包装重复、负结果或未验证结论为创新。优先解决影响主线的问题，对局部问题给出最小修正，不反复开启已解决质疑。
 

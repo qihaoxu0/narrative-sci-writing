@@ -1,4 +1,4 @@
 interface:
   display_name: "叙事型SCI写作"
   short_description: "以科学问题与真实证据组织论文叙事，建设性重构章节并保持中英主张一致"
-  default_prompt: "请使用 $narrative-sci-writing，根据我的稿件和真实证据梳理论证主线，并直接重写当前章节。"
+  default_prompt: "请使用 $narrative-sci-writing，按优先论文架构重写全文，引言组织3—4条真实贡献，并保持方法、实验与结论的证据一致。"
